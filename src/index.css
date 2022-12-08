@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+
+* {
+  font-family: 'Nunito Sans', sans-serif !important;
+}
+
+body {
+  margin: 0;
+}
+
+.primaryBackgroundColor {
+  background-color: #322740;
+}
+
+.iconColor {
+  color: white;
+}
+
+.navigationColor {
+  background-color: white;
+  color: black !important;
+}
+
+.alingmentCenter {
+  text-align: center;
+}
+
+/******* color for Job Board  *****/
+
+#statusStyle {
+  padding: 3px;
+  border-radius: 5px;
+}
+
+.Select,
+.BackLog,
+.Unresolved {
+  background-color: rgba(161, 170, 185, 0.665);
+  color: #202734;
+
+}
+
+.In,
+.Review {
+  background-color: #6097ea74;
+  color: #08439b;
+}
+
+.Done {
+  background-color: #67b69c7b;
+  color: #087855;
+}
+
+/* code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
